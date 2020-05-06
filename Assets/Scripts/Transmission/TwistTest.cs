@@ -4,8 +4,12 @@ namespace RosSharp.RosBridgeClient
 {
     public class TwistTest : Subscriber<Messages.Geometry.Twist>
     {
-        public float CommandGain;
-        public string WheelType;
+        public enum WheelType
+        {
+            Left,
+            Right
+        }
+        [SerializeField] WheelType type;
         public float WheelRadius;
         public float WheelSeparation;
         private Vector3 linearVelocity;
@@ -43,18 +47,18 @@ namespace RosSharp.RosBridgeClient
             // Debug.Log(linearVelocity);
             // Debug.Log(angularVelocity);
             motor = hinge.motor;
-            if (WheelType == "Left")
+            if (type.ToString() == "Left")
             {
-                motor.targetVelocity = (2*linearVelocity[2]*CommandGain + WheelSeparation*angularVelocity[1]*CommandGain)/2;
+                motor.targetVelocity = (float)180.0 / Mathf.PI * ( 2*linearVelocity[2] + WheelSeparation*angularVelocity[1] ) / ( 2*WheelRadius );
             }
-            else if (WheelType == "Right")
+            else if (type.ToString() == "Right")
             {
-                motor.targetVelocity = (2*linearVelocity[2]*CommandGain - WheelSeparation*angularVelocity[1]*CommandGain)/2;
+                motor.targetVelocity = (float)180.0 / Mathf.PI * ( 2*linearVelocity[2] - WheelSeparation*angularVelocity[1] ) / ( 2*WheelRadius );
             }
             else{
                 motor.targetVelocity = 0;
             }
-            motor.force = 10000000000000;
+            // motor.force = 10000000000000;
             motor.freeSpin = false;
             hinge.motor = motor;
             hinge.useMotor = true;
