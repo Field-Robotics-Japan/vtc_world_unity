@@ -1,4 +1,5 @@
 # vtc_world_unity
+![vtc_world](./image/vtc_world.png)  
 Virtual Tsukuba Challenge for Unity world data.  
 This repository is ONLY for the world (environment) data for Virtual Tsukuba Challenge.  
 If you may have interests including robot model, go to [vtc_unity](https://github.com/Field-Robotics-Japan/vtc_unity) repo, please.
