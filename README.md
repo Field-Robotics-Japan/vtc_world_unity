@@ -1,7 +1,7 @@
 # vtc_world_unity
 Virtual Tsukuba Challenge for Unity world data.  
 This repository is ONLY for the world (environment) data for Virtual Tsukuba Challenge.  
-If you may have interests including robot model, go to [vtc_unity]() repo, please.
+If you may have interests including robot model, go to [vtc_unity](https://github.com/Field-Robotics-Japan/vtc_unity) repo, please.
 
 # LICENSE Dependencies
 - [PointCloud data](./Assets/PointCloud) : [Apache2.0](http://www.apache.org/licenses/LICENSE-2.0
