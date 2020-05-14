@@ -1,8 +1,13 @@
 # vtc_world_unity
 ![vtc_world](.image/vtc_world.png)  
-Virtual Tsukuba Challenge for Unity world data.  
-This repository is ONLY for the world (environment) data for Virtual Tsukuba Challenge.  
-If you may have interests including robot model, go to [vtc_unity](https://github.com/Field-Robotics-Japan/vtc_unity) repo, please.
+Virtual Tsukuba Challenge on Unity world data.  
+
+The name "Virtual Tsukuba Challenge (VTC)" was invented by [fuRo](https://www.furo.org/).  
+The fuRo team maintains [Unrial Engine version of VTC](https://github.com/furo-org/VTC2018).   
+If you have interests on that, please vitsit above link.  
+
+This repository is ONLY for the world (environment) data of VTC.  
+If you may have interests including robot model, visit [vtc_unity](https://github.com/Field-Robotics-Japan/vtc_unity) repo, please.
 
 # LICENSE Dependencies
 - [PointCloud data](./Assets/PointCloud) : [Apache2.0](http://www.apache.org/licenses/LICENSE-2.0
