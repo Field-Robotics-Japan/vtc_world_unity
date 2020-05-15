@@ -2,19 +2,18 @@
 ![vtc_world](.image/vtc_world.png)  
 Virtual Tsukuba Challenge on Unity world data.  
 
-The name "Virtual Tsukuba Challenge (VTC)" was invented by [fuRo](https://www.furo.org/).  
-The fuRo team maintains [Unrial Engine version of VTC](https://github.com/furo-org/VTC2018).   
-If you have interests on that, please vitsit above link.  
+
+[The original Virtual Tsukuba Challenge (VTC) using Unreal Engine](https://github.com/furo-org/VTC) has been developed by [fuRo](https://www.furo.org/).
 
 This repository is ONLY for the world (environment) data of VTC.  
 If you may have interests including robot model, visit [vtc_unity](https://github.com/Field-Robotics-Japan/vtc_unity) repo, please.
 
 # LICENSE Dependencies
-- [PointCloud data](./Assets/PointCloud) : [Apache2.0](http://www.apache.org/licenses/LICENSE-2.0
+- [Stencil2 PointCloud data](./Assets/PointCloud) : [Apache2.0](http://www.apache.org/licenses/LICENSE-2.0
 ) by 防衛大学校ソフトウェア工学講座  
   This data is referenced to create the world model.
 - [City Hall.fbx](./Assets/Rawdata) : [Apache2.0](http://www.apache.org/licenses/LICENSE-2.0
-) by [Tomoaki Yoshida](https://github.com/furo-org/VTC2018)  
+) by [Tomoaki Yoshida](https://github.com/furo-org/VTC)  
   [City Hall.prefab](./Assets/Prefab) is modified from above FBX model.
 ### From Unity Asset store
 We utilize following Assets from Unity Asset Store.  
