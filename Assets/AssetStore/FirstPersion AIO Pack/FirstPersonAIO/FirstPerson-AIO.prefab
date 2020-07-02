@@ -267,9 +267,9 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 2
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!136 &136239539305442568
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -300,7 +300,6 @@ MonoBehaviour:
   mouseInputInversion: 0
   verticalRotationRange: 170
   mouseSensitivity: 10
-  mouseSensitivityInternal: 10
   fOVToMouseSensitivity: 1
   cameraSmoothing: 5
   lockAndHideCursor: 1
@@ -330,35 +329,19 @@ MonoBehaviour:
     crouchWalkSpeedMultiplier: 0.5
     crouchJumpPowerMultiplier: 0
     crouchOverride: 0
-  fOVKick:
-    useFOVKick: 0
-    FOVKickAmount: 4
-    changeTime: 0.01
-    KickCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 2
-        outSlope: 2
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    fovStart: 0
+  advanced:
+    gravityMultiplier: 1
+    zeroFrictionMaterial: {fileID: 0}
+    highFrictionMaterial: {fileID: 0}
+    maxSlopeAngle: 70
+    maxWallShear: 89
+    maxStepHeight: 0.2
+    curntGroundNormal: {x: 0, y: 0, z: 0}
+    moveDirRef: {x: 0, y: 0}
+    lastKnownSlopeAngle: 0
+    FOVKickAmount: 2.5
+    changeTime: 0.75
+    fovRef: 0
   isCrouching: 0
   fps_Rigidbody: {fileID: 0}
   useHeadbob: 1
@@ -369,6 +352,7 @@ MonoBehaviour:
   headbobHeight: 1
   headbobSideMovement: 0.5
   jumpLandIntensity: 3
+  enableAudioSFX: 1
   Volume: 5
   jumpSound: {fileID: 0}
   landSound: {fileID: 0}
@@ -379,14 +363,20 @@ MonoBehaviour:
   fsmode: 1
   dynamicFootstep:
     materialMode: 0
-    woodPhysMat: {fileID: 0}
-    metalAndGlassPhysMat: {fileID: 0}
-    grassPhysMat: {fileID: 13400000, guid: 48bbde3049f29b247a56af17d2b0381f, type: 2}
-    dirtAndGravelPhysMat: {fileID: 0}
-    rockAndConcretePhysMat: {fileID: 13400000, guid: 8b2bc5d65b8a23249ac65e6a71b72204,
-      type: 2}
-    mudPhysMat: {fileID: 0}
-    customPhysMat: {fileID: 13400000, guid: 607312263e6edad4293a3fd7bb6602cf, type: 2}
+    woodPhysMat: []
+    metalAndGlassPhysMat: []
+    grassPhysMat: []
+    dirtAndGravelPhysMat: []
+    rockAndConcretePhysMat: []
+    mudPhysMat: []
+    customPhysMat: []
+    woodMat: []
+    metalAndGlassMat: []
+    grassMat: []
+    dirtAndGravelMat: []
+    rockAndConcreteMat: []
+    mudMat: []
+    customMat: []
     currentClipSet: []
     woodClipSet: []
     metalAndGlassClipSet: []
