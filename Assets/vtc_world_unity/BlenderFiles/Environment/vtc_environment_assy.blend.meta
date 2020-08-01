@@ -3,7 +3,37 @@ guid: 5d4e9e816f93dfe4695836882c3e747e
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Asphalt010
+    second: {fileID: 2100000, guid: 7e9232fdc281daf46bf797b4f29fa494, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Asphalt015
+    second: {fileID: 2100000, guid: 7bebcc929ee559349b09d58bdaa4dcb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ground003
+    second: {fileID: 2100000, guid: 6a2d3876006b3fb469785513efa21356, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PavingStones002
+    second: {fileID: 2100000, guid: bd88dcc06bcd82640b73377ce350529a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoadEdgeStone
+    second: {fileID: 2100000, guid: 6c81610a6e24a20489f32f002b12759b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SandyGravel02
+    second: {fileID: 2100000, guid: c87a46a335398b743a19dd9d12746b99, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -36,13 +66,13 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
