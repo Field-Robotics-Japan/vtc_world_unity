@@ -2,19 +2,20 @@
 ![vtc_world](.image/vtc_world.png)  
 Virtual Tsukuba Challenge on Unity world data.  
 
-
-[The original Virtual Tsukuba Challenge (VTC) using Unreal Engine](https://github.com/furo-org/VTC) has been developed by [fuRo](https://www.furo.org/).
+[The Virtual Tsukuba Challenge (VTC) using Unreal Engine](https://github.com/furo-org/VTC) has been developed by [fuRo](https://www.furo.org/).
 
 This repository is ONLY for the world (environment) data of VTC.  
 If you may have interests including robot model, visit [vtc_unity](https://github.com/Field-Robotics-Japan/vtc_unity) repo, please.
 
+If you have any Issues, or need bug tracking, visit [vtc_unity/issues](https://github.com/Field-Robotics-Japan/vtc_unity/issues) page, please.
+
 # LICENSE Dependencies
-- [Stencil2 PointCloud data](./Assets/PointCloud) : [Apache2.0](http://www.apache.org/licenses/LICENSE-2.0
+- [Stencil2 PointCloud data](./Assets/vtc_world_unity/Blender/Environment/Resources/reduced_tc.ply) : [Apache2.0](http://www.apache.org/licenses/LICENSE-2.0
 ) by 防衛大学校ソフトウェア工学講座  
   This data is referenced to create the world model.
-- [City Hall.fbx](./Assets/Rawdata) : [Apache2.0](http://www.apache.org/licenses/LICENSE-2.0
+- [City Hall.fbx](https://github.com/furo-org/VTC/blob/TC2019/Assets/City%20Hall.fbx) : [Apache2.0](http://www.apache.org/licenses/LICENSE-2.0
 ) by [Tomoaki Yoshida](https://github.com/furo-org/VTC)  
-  [City Hall.prefab](./Assets/Prefab) is modified from above FBX model.
+  [CityHall.blend](./Assets/vtc_world_unity/Blender/Environment/CitiHall/CityHall.blend) is modified from above FBX model.
 ### From Unity Asset store
 We utilize following Assets from Unity Asset Store.  
 Every package are Free now (2020/05/13).
@@ -22,17 +23,9 @@ We partly modify and utilize those Assets.
 - [Realistic Tree 9](https://assetstore.unity.com/packages/3d/vegetation/trees/realistic-tree-9-rainbow-tree-54622)
 - [Mobile Tree Package](https://assetstore.unity.com/packages/3d/vegetation/trees/mobile-tree-package-18866)
 - [Yughues Free Bushes](https://assetstore.unity.com/packages/3d/vegetation/plants/yughues-free-bushes-13168)
-- [Yughues Free Ground Materials](https://assetstore.unity.com/packages/2d/textures-materials/floors/yughues-free-ground-materials-13001)
-- [PBR Tile Texture Floor](https://assetstore.unity.com/packages/2d/textures-materials/pbr-tile-texture-floor-36243)
-- [Birch Tree Pack vol. 1](https://assetstore.unity.com/packages/3d/vegetation/trees/birch-tree-pack-vol-1-49093)
-- [Forester Pro Sycamore](https://assetstore.unity.com/packages/3d/vegetation/trees/forester-pro-sycamore-5980)
-- [Asphalt materials](https://assetstore.unity.com/packages/2d/textures-materials/roads/asphalt-materials-141036)
-- [Easy Grass Substance](https://assetstore.unity.com/packages/2d/textures-materials/floors/easy-grass-substance-82272)
 - [First Person All-in-One](https://assetstore.unity.com/packages/tools/input-management/first-person-all-in-one-135316)
 - [Simple Cars Pack](https://assetstore.unity.com/packages/3d/vehicles/land/simple-cars-pack-97669)
-- [UAA - City Props - Vehicles](https://assetstore.unity.com/packages/3d/vehicles/land/uaa-city-props-vehicles-120339)
-- [Stylized Vehicles Pack - FREE](https://assetstore.unity.com/packages/3d/vehicles/land/stylized-vehicles-pack-free-150318)
-
+- [Pcx](https://github.com/keijiro/Pcx)
 # LICENSE
 Copyright [2020] Ryodo Tanaka groadpg@gmail.com
 
