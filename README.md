@@ -15,7 +15,7 @@ If you have any Issues, or need bug tracking, visit [vtc_unity/issues](https://g
   This data is referenced to create the world model.
 - [City Hall.fbx](https://github.com/furo-org/VTC/blob/TC2019/Assets/City%20Hall.fbx) : [Apache2.0](http://www.apache.org/licenses/LICENSE-2.0
 ) by [Tomoaki Yoshida](https://github.com/furo-org/VTC)  
-  [CityHall.blend](./Assets/vtc_world_unity/Blender/Environment/CitiHall/CityHall.blend) is modified from above FBX model.
+  [CityHall.blend](./Assets/vtc_world_unity/Blender/Environment/CityHall/CityHall.blend) is modified from above FBX model.
 ### From Unity Asset store
 We utilize following Assets from Unity Asset Store.  
 Every package are Free now (2020/05/13).
