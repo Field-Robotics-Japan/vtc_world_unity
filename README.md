@@ -10,7 +10,7 @@ If you may have interests including robot model, visit [vtc_unity](https://githu
 If you have any Issues, or need bug tracking, visit [vtc_unity/issues](https://github.com/Field-Robotics-Japan/vtc_unity/issues) page, please.
 
 # Installation
-Thanks to @ssilph from #8
+Thanks to [@ssilph](https://github.com/ssilph) from [#8](https://github.com/Field-Robotics-Japan/vtc_world_unity/issues/8)
 ### １．unity(2019.3.10f1)のinstall
 まずは，UnityHubをインストールしてください．
 - Windows, Mac : https://unity3d.com/jp/get-unity/download
