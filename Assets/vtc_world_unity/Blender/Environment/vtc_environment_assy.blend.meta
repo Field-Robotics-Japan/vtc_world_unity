@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Asphalt009
+    second: {fileID: 2100000, guid: 2cd96b5f73735f845839e47ccbfaf30c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Asphalt010
     second: {fileID: 2100000, guid: 7e9232fdc281daf46bf797b4f29fa494, type: 2}
   - first:
@@ -22,8 +27,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: JokouMark
+    second: {fileID: 2100000, guid: 73b8633091e4eca46b6b655730184183, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LeftTurn
+    second: {fileID: 2100000, guid: c35f830c0ac061d43b9bcf07f6987176, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: PavingStones002
     second: {fileID: 2100000, guid: bd88dcc06bcd82640b73377ce350529a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RightTurn
+    second: {fileID: 2100000, guid: 76ec6987b0ba39a4e9ecf4b99b3ca2c4, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
