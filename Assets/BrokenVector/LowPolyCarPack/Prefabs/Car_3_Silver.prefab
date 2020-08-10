@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 455904}
   - component: {fileID: 3336518}
   - component: {fileID: 2375328}
+  - component: {fileID: 7131431900110361264}
   m_Layer: 0
   m_Name: Car_3_Silver
   m_TagString: Untagged
@@ -85,6 +86,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7131431900110361264
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129146}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
 --- !u!1 &145462
 GameObject:
   m_ObjectHideFlags: 0
