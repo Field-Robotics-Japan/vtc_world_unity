@@ -30,7 +30,7 @@ $ sudo apt install blender
 ### ３．PointCloudViewer(version=2.8x) + bpy(version=2.8x)のインストール
 次に，PointCloudViewer と bpy が必要です．
 下記リンクより，zipファイルをダウンロードしてください．
-- https://github.com/uhlik/bpy#point-cloud-visualizer-for-blender-280
+- https://github.com/uhlik/bpy#point-cloud-visualizer-for-blender-280  
 その後，下記手順でインストールをお願いします．
 - blender->Edit(画面左上)->Preferences->Add-ons(左側)->install(右上)->zipファイル選択->install Add-on
 zipを展開
