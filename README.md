@@ -10,7 +10,7 @@ If you may have interests including robot model, visit [vtc_unity](https://githu
 If you have any Issues, or need bug tracking, visit [vtc_unity/issues](https://github.com/Field-Robotics-Japan/vtc_unity/issues) page, please.
 
 # LICENSE Dependencies
-- [Stencil2 PointCloud data](./Assets/vtc_world_unity/Blender/Environment/Resources/reduced_tc.ply) : [Apache2.0](http://www.apache.org/licenses/LICENSE-2.0
+- [Stencil2 PointCloud data](https://github.com/Field-Robotics-Japan/vtc_world_blender/blob/master/Resources/point_cloud/TsukubaChallenge_2018.ply) : [Apache2.0](http://www.apache.org/licenses/LICENSE-2.0
 ) by 防衛大学校ソフトウェア工学講座  
   This data is referenced to create the world model.
 - [City Hall.fbx](https://github.com/furo-org/VTC/blob/TC2019/Assets/City%20Hall.fbx) : [Apache2.0](http://www.apache.org/licenses/LICENSE-2.0
