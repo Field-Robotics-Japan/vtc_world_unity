@@ -11,40 +11,40 @@ If you have any Issues, or need bug tracking, visit [vtc_unity/issues](https://g
 
 # Installation
 Thanks to [@ssilph](https://github.com/ssilph) from [#8](https://github.com/Field-Robotics-Japan/vtc_world_unity/issues/8)
-### １．unity(2019.3.10f1)のinstall
-まずは，UnityHubをインストールしてください．
+### １．Installation of unity(2019.3.10f1)
+First, install UnityHub with following links.
 - Windows, Mac : https://unity3d.com/jp/get-unity/download
 - Linux : http://kconcon3.hatenablog.com/entry/2019/06/27/220000
 
-完了後，Unity Editor のアーカイブから `2019.3.10f` を選んでインストールしてください．  
+After that, choose and install Unity Editor (version : `2019.3.10f`) from archive.  
 https://unity3d.com/get-unity/download/archive
 
-### ２．blender2.83のinstall
-Blender>=2.8 が必要です．下記コマンドでインストールしてください．
+### ２．Installation of Blender 2.8x
+You need Blender>=2.8x. Plsease install with following commands (for Ubuntu).
 ```bash
 $ sudo apt remove blender
 $ sudo add-apt-repository ppa:thomas-schiex/blender
 $ sudo apt update
 $ sudo apt install blender
 ```
-### ３．PointCloudViewer(version=2.8x) + bpy(version=2.8x)のインストール
-次に，PointCloudViewer と bpy が必要です．
-下記リンクより，zipファイルをダウンロードしてください．
+### ３．Installation of PointCloudViewer(version=2.8x) + bpy(version=2.8x)
+You also need, PointCloudViewer and bpy.
+First, download zip file from following link.
 - https://github.com/uhlik/bpy#point-cloud-visualizer-for-blender-280  
-その後，下記手順でインストールをお願いします．
-- blender->Edit(画面左上)->Preferences->Add-ons(左側)->install(右上)->zipファイル選択->install Add-on
-zipを展開
+Then, install them with following procedure.
+- blender->Edit(Top Left)->Preferences->Add-ons(Left side)->install(Top Right)->choose zip file->install Add-on
+Extract zip file
 
-space_view3d_point_cloud_visualizer.pyも同じ手順でインストールしてください．
-- blender->Edit(画面左上)->Preferences->Add-ons(左側)->install(右上)->space_view3d_point_cloud_visualizer.pyファイル選択->install Add-on
+Install `space_view3d_point_cloud_visualizer.py` with same procedure.
+- blender->Edit(Top Left)->Preferences->Add-ons(Left side)->install(Top Right)->choose space_view3d_point_cloud_visualizer.py file->install Add-on
 
-### 4.unityでvtc_world_unityを開く
-ここまで完了したら，UnityHubより本パッケージ`unity_world_unity`を開いて完了です．（初回起動には5分以上かかる場合があります）
+### 4.Open vtc_world_unity
+Finally, please open `vtc_world_unity` package from UnityHub. (It takes more than 5 minuites at the first time, in some case)
 
-### トラブルシューティング
-問題があった場合，`git lfs` に起因する原因の可能性があります．
-`git lfs`をインストールされていない方は，まずはインストールをされて再度`git clone`をお願いします．
-`git lfs`をインストールしているのにうまく行かない方は，下記を試されるとうまく行くかもしれません．
+### Trouble Shooting
+Some problems are come from `git lfs`
+- If you have not installed `git lfs`, please install them. Then, `git clone` this repository again.
+- If you already have installed `git lfs`, but have a problem. Try following procedure please.
 ```bash
 $ git clean -fdx
 $ git lfs pull
